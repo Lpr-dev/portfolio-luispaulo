@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background: linear-gradient(135deg, #3f87a6, #ebf8e1, #f69d3c);
+    color: black;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 28px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #333;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #FF8C00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #d2691e;
+}
+
+/* Seção */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+}
+
+/* Artigos */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    background: #fafafa;
+    transition: all 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    border-color: #ff8c00;
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+article a:hover {
+    color: #FF8C00;
+}
+
+/* Footer */
+footer {
+    color: #838285;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FF8C00;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #d2691e;
+}
